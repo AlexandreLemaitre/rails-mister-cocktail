@@ -1,14 +1,12 @@
 .card {
-  height: 250px;
+  height: 300px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: white;
   position: relative;
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: 1fr 1fr 1fr;
-
+  top: -250px;
+  margin-bottom: 25px;
 }
 .card-description {
   position: absolute;
@@ -30,6 +28,10 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.flex-right {
+  justify-content: space-between;
 }
 
 // Smallest device
